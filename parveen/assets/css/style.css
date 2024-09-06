@@ -14,14 +14,28 @@
     margin-right: auto;
 }
 
-.bg-ornage {
-    background-color: orange;
+.bg-black{
+    background-color:black;
     min-height: 100vh;
 }
 .header{
     height: 50px;
     width: 100%;
-}
-.bg-green{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: green;
+}
+.header h1{
+    color: white;
+    font-size: 30px;
+    
+}
+.header nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: aquamarine; */
 }
