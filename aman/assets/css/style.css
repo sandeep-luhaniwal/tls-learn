@@ -20,15 +20,22 @@
 
 }
 .pt1{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom:70px;
 }
-.leftside img{
+.left1{
+    max-width:260px;
+    padding-left: 35px;
+    
+    
+}
+
+.left1 img{
     width: 135px;
     height: 70px;
     
 }
-.leftside p{
+.left1 p{
     font-size: 17px;
     color: black;
     padding-top: 25px;
@@ -36,7 +43,7 @@
 }
 .icons{
     display: flex;
-    gap: 19px;
+    gap: 15px;
 }
 .display{
     display: flex;
@@ -44,7 +51,7 @@
     
 
 }
-.rightside a:hover{
+.right1 a:hover{
     color: blue;
     transition: .5s;
 }
@@ -58,7 +65,7 @@
     max-width: 108px;
 }
 .box3{
-    max-width: 200px;
+    max-width: 220px;
 }
 .mb{
     margin-bottom: 20px;
@@ -78,14 +85,15 @@
     text-wrap: nowrap;
     
 }
-.rightside{
+.right1{
     display: flex;
-    /* margin-left: 20px; */
+    margin-left: 20px;
     gap: 150px;
+    padding-right: 35px;
     
 }
-@media (max-width:768px) {
-    .rightside{
+@media (max-width:700px) {
+    .right1{
         display: flex;
     
         gap: 75px;
@@ -104,11 +112,11 @@
         padding-bottom: 60px;
     }
     
-    .leftside p{
+    .left1 p{
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    .rightside{
+    .right1{
         display: flex;
         gap:75px;
     }     
