@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    /* top: 160px; */
+    bottom: 10px;
+    z-index: 100;
+}
+.second{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(4, 1, 40);
+    color: white;
+    font-size: 100px;
+/* padding-top: 100px; */
+/* margin-top: 100px; */
+
+}
+.third{
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(35, 220, 94);
+    margin-bottom: 100px;
+}
