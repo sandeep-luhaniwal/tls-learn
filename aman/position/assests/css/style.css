@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.one {
+    width: 200px;
+    height: 100vh;
+    background-color: aqua;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 180px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+    color: rgb(15, 11, 220);
+    font-size: 80px;
+    padding-top: 50px;
+    position: fixed;
+    top: 0px;
+    padding-left: 270px;
+
+
+}
+
+.three {
+    width: 100%;
+    height: 1000px;
+    background-color: brown;
+    font-size: 70px;
+    margin-top: 200px;
+    padding-left: 270px;
+
+
+
+}
+
+.four {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    font-size: 70px;
+    /* margin-top: 20px; */
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
