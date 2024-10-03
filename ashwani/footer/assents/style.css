@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style-type:none; 
+    list-style-type: none;
     text-decoration: none;
+    
+
 }
-.cantanier{
-    max-width: 100%;
+.cantainer{
+    width: 100%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: red;
 }
